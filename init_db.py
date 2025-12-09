@@ -11,6 +11,8 @@ def create_database():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         username TEXT UNIQUE,
         password TEXT,
+        phone TEXT UNIQUE,
+        address TEXT,
         role TEXT
     )
     """)
